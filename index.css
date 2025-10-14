@@ -936,16 +936,16 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-products-1 {
-    width: 410px;
-    margin-left: -35px;
-    margin-right: -35px;
+    width: 389px;
+    margin-left: -24px;
+    margin-right: -24px;
+    min-height: auto;
   }
 
   .u-section-4 .u-repeater-1 {
     grid-auto-columns: calc(33.3333% - 1.33333px);
     --gap: 2px;
     grid-template-columns: repeat(3, calc(33.3333% - 1.33333px));
-    min-height: 491px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -2534,7 +2534,7 @@
 
 @media (max-width: 575px) {
    .u-section-7 {
-    min-height: 767px;
+    min-height: 804px;
   }
 
   .u-section-7 .u-text-1 {
@@ -2543,12 +2543,12 @@
   }
 
   .u-section-7 .u-layout-wrap-1 {
-    width: 398px;
-    margin: 60px auto 48px;
+    width: 369px;
+    margin: 70px auto 39px;
   }
 
   .u-section-7 .u-layout-cell-1 {
-    min-height: 495px;
+    min-height: 0;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -2559,50 +2559,49 @@
   .u-section-7 .u-text-2 {
     width: auto;
     font-size: 0.875rem;
-    margin-top: 11px;
+    margin-top: 26px;
   }
 
   .u-section-7 .u-text-3 {
     width: auto;
     font-size: 1rem;
-    margin-top: 22px;
+    margin-top: 33px;
     margin-right: 6px;
     margin-left: -6px;
   }
 
   .u-section-7 .u-image-1 {
-    min-height: 125px;
+    min-height: 0;
   }
 
   .u-section-7 .u-image-2 {
-    min-height: 55px;
+    min-height: 95px;
   }
 
   .u-section-7 .u-layout-cell-4 {
-    min-height: 565px;
+    min-height: 541px;
   }
 
   .u-section-7 .u-container-layout-4 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 
   .u-section-7 .u-text-4 {
     font-size: 0.875rem;
-    margin-top: 28px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-7 .u-text-5 {
     font-size: 1rem;
-    margin-top: 22px;
-    margin-right: 6px;
-    margin-left: -6px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-7 .u-layout-cell-5 {
-    min-height: 494px;
+    min-height: 516px;
   }
 
   .u-section-7 .u-container-layout-5 {
@@ -2613,17 +2612,19 @@
   .u-section-7 .u-text-6 {
     width: auto;
     font-size: 0.875rem;
-    margin-top: 12px;
+    margin-top: 27px;
   }
 
   .u-section-7 .u-text-7 {
     width: auto;
     font-size: 1rem;
-    margin-top: 65px;
+    margin-top: 18px;
+    margin-right: 3px;
+    margin-left: -2px;
   }
 
   .u-section-7 .u-image-3 {
-    min-height: 100px;
+    min-height: 120px;
   }
 } .u-section-8 {
   background-image: none;
