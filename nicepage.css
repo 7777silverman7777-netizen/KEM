@@ -46120,13 +46120,13 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 82px;
 }
 
 .u-header .u-image-1 {
   width: 51px;
-  height: 80px;
-  margin: 0 auto 0 -38px;
+  height: 82px;
+  margin: 0 auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46135,7 +46135,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -62px auto 18px;
+  margin: -62px auto 0;
 }
 
 .u-header .u-nav-1 {
@@ -46147,49 +46147,71 @@ a.u-link.u-text-hover-color-var:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-@media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 84px;
-  }
 
+.u-header .u-shopping-cart-1 {
+  height: 34px;
+  width: 34px;
+  margin: -39px auto 23px 59px;
+}
+
+.u-header .u-icon-1 {
+  padding: 0;
+}
+@media (max-width: 1199px) {
   .u-header .u-image-1 {
     width: 51px;
-    margin-left: -38px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -62px;
   }
+
+  .u-header .u-shopping-cart-1 {
+    width: 34px;
+    margin-top: -39px;
+    margin-left: 59px;
+  }
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 86px;
+    min-height: 90px;
   }
 
   .u-header .u-image-1 {
-    margin-top: 7px;
+    margin-top: 5px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -58px;
+    margin-top: -56px;
     margin-right: 0;
-    margin-bottom: 21px;
+  }
+
+  .u-header .u-shopping-cart-1 {
+    margin-top: -37px;
+    margin-bottom: 28px;
+    margin-left: 65px;
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 87px;
+  .u-header .u-image-1 {
+    margin-top: 11px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -58px;
+    margin-top: -56px;
     margin-right: 0;
+  }
+
+  .u-header .u-shopping-cart-1 {
+    margin-top: -47px;
+    margin-bottom: 30px;
+    margin-left: 65px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 48px;
+    min-height: 57px;
   }
 
   .u-header .u-image-1 {
@@ -46200,13 +46222,19 @@ a.u-link.u-text-hover-color-var:hover {
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+    margin-top: 5px;
     margin-left: -15px;
   }
 
   .u-header .u-menu-1 {
     margin-top: -42px;
     margin-right: -14px;
-    margin-bottom: 6px;
+  }
+
+  .u-header .u-shopping-cart-1 {
+    margin-top: -35px;
+    margin-bottom: 12px;
+    margin-left: 35px;
   }
 }
  .u-footer {
